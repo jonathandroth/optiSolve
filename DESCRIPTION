@@ -1,0 +1,17 @@
+Package: optiSolve
+Type: Package
+Title: Linear, Quadratic, and Rational Optimization
+Version: 0.1
+Date: 2017-07-27
+Author: Robin Wellmann
+Maintainer: Robin Wellmann <r.wellmann@uni-hohenheim.de>
+Depends: R (>= 3.3.2)
+Description: Solver for linear, quadratic, and rational programs with linear, quadratic, and rational constraints. A unified interface to different R packages is provided. Optimization problems are transformed into equivalent formulations and solved by the respective package. For example, quadratic programming problems with linear, quadratic and rational constraints can be solved by augmented Lagrangian minimization using package 'alabama', or by sequential quadratic programming using solver 'slsqp'.  Alternatively, they can be reformulated as optimization problems with second order cone constraints and solved with package 'cccp', or transformed into semidefinite programming problems and solved using solver 'csdp'.
+License: GPL-2
+Imports: Matrix, shapes, Rcsdp, alabama, cccp, nloptr, MASS, methods,
+        plyr, stringr, stats, Rcpp (>= 0.12.4)
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2017-07-27 08:33:15 UTC; Robin
+Repository: CRAN
+Date/Publication: 2017-07-27 22:22:13 UTC
