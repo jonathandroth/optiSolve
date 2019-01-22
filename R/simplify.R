@@ -14,7 +14,7 @@
       op$f$a <- - op$f$a
       op$max <- FALSE
     }
-    op$f$a <- 0.1*(op$f$a - mean(op$f$a))/sd(op$f$a)
+    #op$f$a <- 0.1*(op$f$a - mean(op$f$a))/sd(op$f$a)
   }
   if(class(op$f)=="quadFun"){
     op$f$d <- 0*op$f$d
